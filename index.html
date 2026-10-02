@@ -21,7 +21,7 @@
 <meta name="ext-resource-dependency" content="images/VO.gif" data-resource-id="images_VO_gif" />
 <meta name="ext-resource-dependency" content="images/Deeplearning.png" data-resource-id="images_Deeplearning_png" />
 <meta name="ext-resource-dependency" content="images/aerial.gif" data-resource-id="images_aerial_gif" />
-<meta name="ext-resource-dependency" content="images/planning.gif" data-resource-id="images_planning_gif" />
+<meta name="ext-resource-dependency" content="images/planning.png" data-resource-id="images_planning_png" />
 <meta name="ext-resource-dependency" content="images/localization.gif" data-resource-id="images_localization_gif" />
 <meta name="ext-resource-dependency" content="images/intervention.gif" data-resource-id="images_intervention_gif" />
 <meta name="ext-resource-dependency" content="images/percept.gif" data-resource-id="images_percept_gif" />
@@ -482,7 +482,7 @@ class Component extends DCLogic {
       problem: 'Maintaining consistent identities while tracking multiple people through occlusions.',
       contribution: 'YOLOv9 detection with DeepSORT, Kalman filtering and appearance-based association.',
       desc: 'This project implements a real-time human detection and tracking system using YOLOv9 for accurate object detection and DeepSORT for multi-object tracking. The system assigns unique IDs to individuals, maintaining identity consistency even in challenging scenarios with occlusions and motion variations. By leveraging Kalman filtering and appearance-based association, it ensures robust tracking in dynamic environments. The system was tested under diverse conditions, addressing challenges such as occlusions, identity switches, and tracking interruptions.',
-      links: [{ label: 'Project Link', href: 'https://drive.google.com/file/d/1Lbl81q3WoRWe0xVpYVJ1mzRweAqp11Nm/view?usp=sharing' }] },
+      links: [{ label: 'Report', href: 'https://drive.google.com/file/d/1WOE4eisJvqHIzYeptwlF5pC-nyXEjFgk/view?usp=sharing' }] },
 
     { id: 4, featured: false, title: 'Stereo Visual Odometry on KITTI', img: 'images/VO.gif', cats: ['Computer Vision'],
       problem: 'Recovering camera ego-motion from stereo imagery on the KITTI benchmark.',
@@ -502,11 +502,11 @@ class Component extends DCLogic {
       desc: 'The lab work in aerial robotics focused on the design and implementation of quadcopter control strategies. This included developing attitude control of a quadcopter, implementing cascade control for a single quadcopter axis in MATLAB, and extending it to horizontal cascade control of a quadrotor in the Gazebo simulator. Additionally, the control algorithms were tested on a real DJI Tello quadrotor to validate their performance in real-world conditions.',
       links: [{ label: 'GitHub Repository', href: 'https://github.com/Sawera-Yaseen-Kalhoro/Aerial-Robotics' }] },
 
-    { id: 7, featured: false, title: 'Frontier-Based Exploration', img: 'images/planning.gif', cats: ['Robotics', 'Simulation'],
+    { id: 7, featured: false, title: 'Frontier-Based Exploration', img: 'images/planning.png', cats: ['Robotics', 'Simulation'],
       problem: 'Letting a mobile robot autonomously map an unknown environment.',
       contribution: 'Frontier-based exploration with RRT-Connect planning and DWA obstacle avoidance.',
       desc: 'Developed an autonomous exploration system for a Kobuki Turtlebot, enabling the robot to navigate and map unknown environments autonomously. The system integrated frontier-based exploration with the RRT-Connect path-planning algorithm for efficient area coverage. A 2D LiDAR sensor was used for dynamic mapping, continuously updating the environment map as the robot explored. To ensure safe navigation, the Dynamic Window Approach (DWA) handled real-time obstacle avoidance, while dual-tree RRT-Connect enabled collision-free navigation through complex environments.',
-      links: [{ label: 'GitHub Repository', href: 'https://github.com/Sawera-Yaseen-Kalhoro/HO-Planning-Project' }, { label: 'Report', href: 'https://drive.google.com/file/d/19XP2B-xZq6TlL-TZ4Z4F5WknR7jy3Lsh/view?usp=sharing' }] },
+      links: [{ label: 'GitHub Repository', href: 'https://github.com/Sawera-Yaseen-Kalhoro/HO-Planning-Project' }, { label: 'Report', href: 'https://drive.google.com/file/d/1lHlGQG60Dmr81Un4YVBLVOp-6eIeDoix/view?usp=sharing' }] },
 
     { id: 8, featured: true, title: 'EKF-Based SLAM using ArUco Markers', img: 'images/localization.gif', cats: ['Robotics', 'Computer Vision'],
       problem: 'Simultaneously localizing a TurtleBot and mapping landmarks in real time.',
@@ -608,6 +608,10 @@ class Component extends DCLogic {
       date: 'July 5, 2026',
       categories: ['blog', 'robotics', 'women in stem'],
       href: 'https://medium.com/@yaseensawera5/the-quiet-reality-of-being-a-woman-in-robotics-a-personal-reflection-fe2403a32b2a' },
+    { title: 'The Control Interface Problem: How AI Models Actually Move Robots',
+      date: 'Jul 18, 2026',
+      categories: ['blog', 'robotics', 'ai', 'anthropic'],
+      href: 'https://medium.com/@yaseensawera5/the-control-interface-problem-how-ai-models-actually-move-robots-0c5409ee24c6' },
   ];
 
   navLinks = [
